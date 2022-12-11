@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green:#5BA601
+}
+
+/************************ Header ************************/
+.header{
+    background-image: url("1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.navbar-brand{
+    font-weight: bold;
+    
+}
+.navbar-brand span{
+    color: var(--green);
+}
+.offcanvas{
+    visibility: visible !important;
+}
+.navbar-toggler{
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+.navbar-collapse .right-bttn .first-bttn{
+    position: absolute;
+    background-color: #07153A;
+    border-radius: 5px;
+    top: 22%;
+    width: 40px;
+    height: 40px;
+    left: -10%;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.navbar-collapse .right-bttn .first-bttn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+    border-radius: 5px;
+    font-size: 15px;
+    color: #FFF;
+    margin: 6px;
+    padding: 6px;
+}
+.navbar-collapse .right-bttn .second-bttn button{
+    padding: 20px;
+    background-color: var(--green);
+    width: 200px;
+}
+.navbar{
+    background: #07153A !important;
+}
+.offcanvas-header h5{
+    color: var(--green);
+}
+
